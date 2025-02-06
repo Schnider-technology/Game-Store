@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* this css is for the first images  */
+
+.galary__photo {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 10;
+    outline-offset: 10px;
+    transition: all 0.2s;
+}
+
+.galary__photo1 {
+    top: 0;
+    left: 0;
+}
+
+.galary__photo2 {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.galary__photo3 {
+    top: 40px;
+    left: 20%;
+}
+
+.galary__photo4 {
+    top: 60px;
+    left: 40%;
+}
+
+.galary__photo5 {
+    top: 40px;
+    left: 60%;
+    z-index: 2;
+}
+
+.galary__photo:hover {
+    outline: 5px solid orange;
+    transform: scale(1.05) translateX(-10px);
+    z-index: 20px;
+}
+
+.galary:hover .galary__photo:not(:hover) {
+    transform: scale(0.9);
+}
+
+.galary {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 265px;
+}
+
+.galary1 {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 265px;
+    padding-bottom: 385px;
+}
+
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 85px;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: #404040;
+    border-bottom: orange 5px solid;
+    border-bottom-right-radius: 30px;
+}
+
+.icon {
+    font-family: Arial;
+    font-size: 25px;
+    width: 300px;
+    float: left;
+    height: 70px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+#Tomb {
+    font-family: Arial;
+    font-size: 25px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#Tomb1 {
+    font-family: Arial;
+    font-size: 25px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.left {
+    text-align: left;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    color: #c8c8c8;
+    background-image: url('games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+}
+
+#header2 {
+    color: #c8c8c8;
+    background-image: url('PIC1.png');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+}
+
+h3,
+b {
+    color: white;
+}
+
+body {
+    background-image: url(games/ps4-logo-5.jpg);
+}
+
+#header4 {
+    color: #c8c8c8;
+    background-image: url('games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 400px;
+    background-position: center;
+    text-align: center;
+}
+
+#header4 input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#header4 input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#text {
+    background-image: url('games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    padding: 0 auto;
+}
+
+#table {
+    background-image: url('games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    border: solid 4px white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.header3 {
+    color: #c8c8c8;
+    background-image: url('games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+    background-position: bottom;
+}
+
+div.img {
+    color: black;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    display: block;
+    padding: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.re {
+    width: 100%;
+    height: 100%;
+    background: url(assassin-s-creed-assassin-s-creed-valhalla-viking-voin.jpg);
+    animation: slide 20s infinite;
+}
+
+.ho {
+    width: 100%;
+    height: 100%;
+    background: url(assassin-s-creed-assassin-s-creed-valhalla-viking-voin.jpg);
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url(god-of-war-wallpaper-preview.jpg);
+        background-size: 100%;
+    }
+    50% {
+        background: url(PIC1.png);
+        background-size: 100%;
+    }
+    75% {
+        background: url(god-of-war-wallpaper-preview.jpg);
+        background-size: 100%;
+    }
+    100% {
+        background: url(images.jpeg);
+        background-size: 100%;
+    }
+}
+
+.menu ul li {
+    list-style: none;
+    /* deleat point of list */
+    margin-left: 135px;
+    margin-top: 35px;
+    /* top of div */
+    font-size: 14px;
+}
+
+.menu ul {
+    float: center;
+    display: flex;
+    align-items: center;
+}
+
+a.wordInTop:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+    ;
+    font-family: Arial;
+}
+
+ul li a {
+    text-decoration: none;
+    /* deleat of line to under word */
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    /* to make bold to line */
+    transition: 0.4s ease-in-out;
+    /* enter from abrod */
+}
+
+ul li a:hover {
+    color: orange;
+    /* color on list */
+}
+
+div.img:hover {
+    border: 1px solid black;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #404040;
+    clear: left;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.big_warpper{
+	
+	text-align: center;
+}
+
+
+
+
+
+
+
+#header{
+	background-image: url("M_M 1/gg.gif");
+	color: blue;
+	padding: 50px;
+	font-size: 35px;
+
+
+}
+
+#bad{
+	background-image: url("ICON0.jpg");
+}

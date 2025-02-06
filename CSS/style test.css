@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* this css is for the first images  */
+
+.galary__photo {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 10;
+    outline-offset: 10px;
+    transition: all 0.2s;
+}
+
+.galary__photo1 {
+    top: 0;
+    left: 0;
+}
+
+.galary__photo2 {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.galary__photo3 {
+    top: 40px;
+    left: 20%;
+}
+
+.galary__photo4 {
+    top: 60px;
+    left: 40%;
+}
+
+.galary__photo5 {
+    top: 40px;
+    left: 60%;
+    z-index: 2;
+}
+
+.galary__photo:hover {
+    outline: 5px solid orange;
+    transform: scale(1.05) translateX(-10px);
+    z-index: 20px;
+}
+
+.galary:hover .galary__photo:not(:hover) {
+    transform: scale(0.9);
+}
+
+.galary {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 265px;
+}
+
+.galary1 {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 25px;
+    padding-top: 265px;
+    padding-bottom: 385px;
+}
+
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 85px;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: #404040;
+    border-bottom: orange 5px solid;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.icon {
+    font-family: Arial;
+    font-size: 25px;
+    width: 300px;
+    float: left;
+    height: 80px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+#Tomb {
+    font-family: Arial;
+    font-size: 25px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#Tomb1 {
+    font-family: Arial;
+    font-size: 25px;
+    color: orange;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.left {
+    text-align: left;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    color: #c8c8c8;
+    background-image: url('../assets/games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+}
+
+#header2 {
+    color: #c8c8c8;
+    background-image: url('../assets/PIC1.png');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+}
+
+p,
+h3,
+b {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url("../assets/games/ps4-logo-5.jpg");
+}
+
+#header4 {
+    color: #c8c8c8;
+    background-image: url('../assets/games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 400px;
+    background-position: center;
+    text-align: center;
+}
+
+#header4 input[type=text] {
+    text-align:center ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#header4 input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#text {
+    background-image: url('../assets/games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    padding: 0 auto;
+}
+
+#table {
+    background-color: #404040;
+    width: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    size: 25px;
+    border: solid 4px white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.header3 {
+    color: #c8c8c8;
+    background-image: url('../assets/games/ps4-logo-5.jpg');
+    background-attachment: fixed;
+    padding: 25px;
+    text-align: center;
+    background-position: center;
+    background-position: bottom;
+}
+
+
+/** in this part we have to change something to make the image like hadi photo**/
+
+.re {
+    width: 100%;
+    height: 100%;
+    background: url("../assets/assassin-s-creed-assassin-s-creed-valhalla-viking-voin.jpg");
+    animation: slide 20s infinite;
+}
+
+.ho {
+    width: 100%;
+    height: 100%;
+    background: url("../assets/assassin-s-creed-assassin-s-creed-valhalla-viking-voin.jpg");
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url("../assets/new/god of war wallpaper 054 - 1920x1080-768x432.jpg");
+        background-size: 100%;
+    }
+    50% {
+        background: url("../assets/new/thumb-1920-532407.jpg");
+        background-size: 100%;
+    }
+    75% {
+        background: url("../assets/new/1596782.jpg");
+        background-size: 100%;
+    }
+    100% {
+        background: url("../assets/new/thumb-1920-1077804.jpg");
+        background-size: 100%;
+    }
+}
+
+.menu ul li {
+    list-style: none;
+    /* deleat point of list */
+    margin-left: 120px;
+    margin-top: 35px;
+    /* top of div */
+    font-size: 14px;
+}
+
+.top {
+    border: 10px;
+    font-size: 28px;
+    font-family: cursive;
+}
+
+.menu ul {
+    float: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    background-color: #404040;
+    text-align: center;
+}
+
+.menu a {
+    color: #fff;
+}
+
+a.wordInTop:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+    text-decoration-color: gray;
+    font-family: Arial;
+}
+
+ul li a {
+    text-decoration: none;
+    /* deleat of line to under word */
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    /* to make bold to line */
+    transition: 0.4s ease-in-out;
+    /* enter from abrod */
+}
+
+ul li a:hover {
+    color: orange;
+    /* color on list */
+}
+
+div.img:hover {
+    border: 1px solid black;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc:hover {
+    color: orange;
+}
+
+
+/* .wite {} */
+
+
+/* footer {
+    padding: 1em;
+    color: white;
+    background-color: #404040;
+    clear: left;
+    text-align: center;
+} */
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pro {
+    width: 30%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid orange;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    text-align: center;
+    background-color: #404040;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.pro :hover {
+    box-shadow: 50px 50px 60px rgb(0, 0, 0, 0.02);
+}
+
+.pro .des {
+    text-align: start;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+.star {
+    width: 110px;
+    height: 30px;
+    padding-top: 7px;
+}
+
+.cart1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #5fb3ad;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-align: center;
+}
+
+.cart1 :hover {
+    color: orange;
+}
+
+.pro img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.pro .des span {
+    color: #b4b3b3;
+    font-size: 12px;
+}
+
+.pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.pro .des h3 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: orange;
+    text-align: left;
+}
+
+.info {
+    height: 150px;
+    width: 150px;
+    border: 1px solid orange;
+    border-radius: 80px;
+    text-align: center;
+}
+
+mi {
+    margin-right: 180px;
+    text-align: center;
+    display: inline;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.2s ease;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+footer h3 {
+    color: orange;
+    text-align: start;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer.colo {
+    background-color: #404040;
+}
+
+.info {
+    height: 150px;
+    width: 150px;
+    border: 1px solid orange;
+    border-radius: 80px;
+    text-align: center;
+}
+
+mi {
+    margin-right: 180px;
+    text-align: center;
+    display: inline;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    float: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    background-color: #404040;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.copyright :hover {
+    color: #fff;
+}
